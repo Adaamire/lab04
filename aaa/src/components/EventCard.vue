@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import type { Event } from '@/types';
+import { type Event } from '@/types'
 
 // 正确定义props来接收外部传入的event对象
 defineProps<{
